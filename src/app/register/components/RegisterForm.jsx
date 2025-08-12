@@ -17,7 +17,7 @@ const RegisterForm = () => {
             alert("All fields are required.");
             return;
         }
-
+        console.log({ name, email, password });
         await registerUser({ name, email, password });
 
         // Proceed with signup logic (Firebase/Auth API/etc)
