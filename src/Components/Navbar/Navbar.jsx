@@ -57,6 +57,12 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                <Link href={'/login'}>
+                    Login
+                </Link>
+                <Link href={'/register'}>
+                    Register
+                </Link>
                 <a className="btn btn-outline">Appointment</a>
             </div>
         </div>
