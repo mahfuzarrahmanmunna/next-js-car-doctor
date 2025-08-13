@@ -56,6 +56,7 @@ const Navbar = () => {
                     {navMenu()}
                 </ul>
             </div>
+            
             <div className="navbar-end">
                 <Link href={'/login'}>
                     Login
